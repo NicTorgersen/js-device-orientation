@@ -19,7 +19,7 @@ onBeforeUnmount(() => {
 </script>
 
 <template>
-    <div class="p-8 dark:bg-gray-800 rounded text-white shadow-xl">
+    <div class="p-8 dark:bg-gray-800 rounded text-black dark:text-white shadow-xl">
         <template v-if="!orientationEventNotGranted">
             <span class="pb-4 text-xl block">Device is pointing</span>
             <div class="h-[64px] w-full">
